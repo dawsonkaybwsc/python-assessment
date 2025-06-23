@@ -22,8 +22,8 @@ block1_y = 150
 block1_width = 150
 block1_height = 390
 
-block2_x = 5
-block2_y = 5
+block2_x = 10
+block2_y = 10
 block2_width = 200
 block2_height = 200
 
@@ -54,7 +54,7 @@ while running:
     dt = current_time - last_frame_time
     last_frame_time = current_time
 
-    running = process_input() 
+    running = process_input()
     update(dt)
     render()
 
